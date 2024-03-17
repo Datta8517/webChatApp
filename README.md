@@ -68,11 +68,9 @@
 
 
 # 3.2 RESULTS:
-	Hence, we successfully developed an API that processes and serves data from the app present on different platforms.
+	Hence, we successfully developed an API that processes and serves data from the app present on different platforms. 	
+![SignUpForm](https://github.com/Datta8517/webChatApp/assets/84066284/a7c7b52f-5417-4326-8032-b3a1063fdb6f)
 
- 	![image](https://github.com/Datta8517/webChatApp/assets/84066284/3299fe20-1c87-4d0e-baad-d0b74900f2fa)
-
- 
 					
 Message Texting: The user can type and send text messages to the other user instantly. This has been accomplished by socket connection. The stream-chat dependency gets the sending socket used for the connection. The text messages are sent through the socket. The key listener has been implemented on the bottom-most window where a user types the message. On the press of the Enter key, the text message is sent to the other user and displayed over the text area of both the user. The receive function on the other side text messages and sends it to the text-area of the receiving user. In this way the texting has been implemented in this application.
  
