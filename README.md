@@ -54,14 +54,28 @@
     	Get Password
     	Get confirm password
     	
-    -	Invite friend Direct
+    -	Invite friends Direct
     o	Select friend
-    o	Click on invite
+    o	Click on the invite
     o	Message to the friend
     -	Group Messaging
     o	Select friend 
-    o	Create group name
+    o	Create a group name
     o	Save 
     o	Message in group
     
-    -	Access function like sharing documents, contact, emojis, gif, tagging to the messages through ChannelInner file << components << src << client
+    -	Access functions like sharing documents, contacts, emojis, gifs, and tagging to the messages through ChannelInner file << components << src << client
+
+
+# 3.2 RESULTS:
+	Hence, we successfully developed an API that processes and serves data from the app present on different platforms.
+
+ 	![image](https://github.com/Datta8517/webChatApp/assets/84066284/3299fe20-1c87-4d0e-baad-d0b74900f2fa)
+
+ 
+					
+Message Texting: The user can type and send text messages to the other user instantly. This has been accomplished by socket connection. The stream-chat dependency gets the sending socket used for the connection. The text messages are sent through the socket. The key listener has been implemented on the bottom-most window where a user types the message. On the press of the Enter key, the text message is sent to the other user and displayed over the text area of both the user. The receive function on the other side text messages and sends it to the text-area of the receiving user. In this way the texting has been implemented in this application.
+ 
+				
+•Threading:  Threads preserve meaningful context and organize conversations. A thread encourages open discussion about topics without distracting others. Threads give you a way to get more clarity, without starting a new DM. Your threads make it easier to track information by looking at specific conversations. Threads keep announcement channels clear of extra clutter. Only those actively participating in a thread get notified; reducing notification overload. Threads are sticky. When you share a message, threaded replies share too. 
+
