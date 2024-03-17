@@ -71,9 +71,30 @@
 	Hence, we successfully developed an API that processes and serves data from the app present on different platforms. 	
 ![SignUpForm](https://github.com/Datta8517/webChatApp/assets/84066284/a7c7b52f-5417-4326-8032-b3a1063fdb6f)
 
-					
-Message Texting: The user can type and send text messages to the other user instantly. This has been accomplished by socket connection. The stream-chat dependency gets the sending socket used for the connection. The text messages are sent through the socket. The key listener has been implemented on the bottom-most window where a user types the message. On the press of the Enter key, the text message is sent to the other user and displayed over the text area of both the user. The receive function on the other side text messages and sends it to the text-area of the receiving user. In this way the texting has been implemented in this application.
+						fig a. SignUp Page
+
+
+![LoginForm](https://github.com/Datta8517/webChatApp/assets/84066284/70fcdbfb-a261-4792-8e00-0bd7bb6b2923)
+
+						fig b. Login Page
+
+
+
+
+
+![MessageTexting](https://github.com/Datta8517/webChatApp/assets/84066284/92cf843b-544a-4df9-986a-01504ddc8ac4)
+
+# Message Texting: 
+The user can type and send text messages to the other user instantly. This has been accomplished by socket connection. The stream-chat dependency gets the sending socket used for the connection. The text messages are sent through the socket. The key listener has been implemented on the bottom-most window where a user types the message. On the press of the Enter key, the text message is sent to the other user and displayed over the text area of both the user. The receive function on the other side text messages and sends it to the text-area of the receiving user. In this way the texting has been implemented in this application.
+
+
+
+
+
+
  
-				
-•Threading:  Threads preserve meaningful context and organize conversations. A thread encourages open discussion about topics without distracting others. Threads give you a way to get more clarity, without starting a new DM. Your threads make it easier to track information by looking at specific conversations. Threads keep announcement channels clear of extra clutter. Only those actively participating in a thread get notified; reducing notification overload. Threads are sticky. When you share a message, threaded replies share too. 
+![ThreadingMessage](https://github.com/Datta8517/webChatApp/assets/84066284/3ffb4aa2-7117-4eea-a2b2-e365befc1474)			
+
+# Threading:  
+Threads preserve meaningful context and organize conversations. A thread encourages open discussion about topics without distracting others. Threads give you a way to get more clarity, without starting a new DM. Your threads make it easier to track information by looking at specific conversations. Threads keep announcement channels clear of extra clutter. Only those actively participating in a thread get notified; reducing notification overload. Threads are sticky. When you share a message, threaded replies share too. 
 
